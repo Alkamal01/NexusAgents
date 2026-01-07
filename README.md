@@ -6,7 +6,7 @@
 
 ## Overview
 
-**NexusAgents** (formerly MetaGPT) is a robust framework designed for **Professional AI Agent Engineering**. It enables developers to build, orchestrate, and deploy collaborative teams of LLM-based agents that can solve intricate problems through role specialization, standardized operating procedures (SOPs), and structured communication.
+**NexusAgents** is a robust framework designed for **Professional AI Agent Engineering**. It enables developers to build, orchestrate, and deploy collaborative teams of LLM-based agents that can solve intricate problems through role specialization, standardized operating procedures (SOPs), and structured communication.
 
 Unlike simple chatbot scripts, NexusAgents treats agents as first-class software components with:
 - **Strict Typing & Schema Validation**: Ensure agent outputs match your API contracts.
@@ -20,19 +20,6 @@ Unlike simple chatbot scripts, NexusAgents treats agents as first-class software
 - **Structured Outputs**: Native support for generating Pydantic models, JSON, and Diagrams (Mermaid).
 - **Extensible Architecture**: Easy to customize Roles, Actions, and Memory stores.
 
-## AI Engineering Showcase
-
-This repository serves as a demonstration of advanced AI Engineering patterns.
-
-### 🚀 Featured Example: [Autonomous System Architect Team](examples/showcase/system_architect_agent.py)
-
-We have included a professional-grade example used to simulate a technical review board.
-Run the showcase to see agents collaborate on a high-level design:
-
-```bash
-# Design an e-commerce system
-python examples/showcase/system_architect_agent.py "Scalable E-commerce platform for 1M DAU"
-```
 
 **What happens under the hood:**
 1. **Chief Architect** analyzes the requirements and produces a *Structured Architecture Design* (JSON + Mermaid).
